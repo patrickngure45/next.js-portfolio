@@ -26,7 +26,6 @@ const About = () => {
         <Img src={image} />
         <RightContainer>
           <TitleContent>
-            <HeaderThree>I am Patrick</HeaderThree>
             <Hr />
           </TitleContent>
           <AboutInfo>{desc}</AboutInfo>
