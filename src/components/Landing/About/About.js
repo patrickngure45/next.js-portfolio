@@ -1,12 +1,7 @@
 import React from 'react';
 import data from '../../../data/About/AboutData';
 import { Section, SectionDivider, SectionTitle } from '../../common';
-import {
-  HeaderThree,
-  Hr,
-  TitleContent,
-  Underline,
-} from '../Projects/ProjectsStyles';
+import { TitleContent, Underline } from '../Projects/ProjectsStyles';
 import {
   AboutContainer,
   AboutInfo,
@@ -25,9 +20,6 @@ const About = () => {
       <AboutContainer>
         <Img src={image} />
         <RightContainer>
-          <TitleContent>
-            <Hr />
-          </TitleContent>
           <AboutInfo>{desc}</AboutInfo>
           <TitleContent>Stack</TitleContent>
           <Underline></Underline>
