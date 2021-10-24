@@ -13,6 +13,14 @@ export default function Home({ projects }) {
   return (
     <Layout>
       <Head>
+        <meta charSet="UTF-8" />
+        <meta name="keywords" content="portfolio,title, meta, nextjs" />
+        <meta name="author" content="Patrick Karanja" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Patrick Karanja Ngure's portfolio, Front End Developer"
+        />
         <title>Ngure-PK</title>
         <meta property="og:title" content="Patrick Portfoilio" key="title" />
       </Head>

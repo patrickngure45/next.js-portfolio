@@ -34,7 +34,7 @@ const Projects = ({ projects }) => {
             <BlogCard key={title}>
               <Img src={image.fields.file.url} alt={title} />
               <TitleContent>
-                <HeaderThree title>{title}</HeaderThree>
+                <HeaderThree>{title}</HeaderThree>
                 <Hr />
               </TitleContent>
               <CardInfo className="card-info">{description}</CardInfo>
