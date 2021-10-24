@@ -1,5 +1,5 @@
 import {
-  FaFacebookSquare,
+  FaGithub,
   FaLinkedin,
   FaDribbbleSquare,
   FaBehanceSquare,
@@ -7,6 +7,11 @@ import {
 } from 'react-icons/fa';
 
 export const data = [
+  {
+    id: 1,
+    icon: <FaGithub></FaGithub>,
+    url: 'https://github.com/patrickngure45',
+  },
   {
     id: 2,
     icon: <FaLinkedin></FaLinkedin>,
