@@ -12,6 +12,10 @@ import Head from 'next/head';
 export default function Home({ projects }) {
   return (
     <Layout>
+      <Head>
+        <title>Ngure-PK</title>
+        <meta property="og:title" content="Patrick Portfoilio" key="title" />
+      </Head>
       <Section grid displaynone>
         <Hero />
         <BackgroundAnimation />

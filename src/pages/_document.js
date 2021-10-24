@@ -48,8 +48,6 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500;600;700&family=Titillium+Web:wght@300;400;600;700&display=swap"
             rel="stylesheet"
           />
-          <title>Ngure-PK</title>
-          <meta property="og:title" content="Patrick Portfoilio" key="title" />
         </Head>
         <body>
           <Main />
