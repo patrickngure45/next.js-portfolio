@@ -17,6 +17,7 @@ export const LeftContainer = styled.div`
   }
 `;
 export const LinksContainer = styled.ul`
+  /* width: 100%; */
   display: flex;
   flex-direction: row;
   align-items: center;

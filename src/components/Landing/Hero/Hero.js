@@ -11,20 +11,15 @@ const Hero = () => {
           Front End Developer. <br />
         </SectionTitle>
         <SectionText>
-          <ul>
-            <li>
-              - Two years experience working with React, JavaScript, HTML/CSS to
-              deliver exceptional user experiences.
-            </li>
-            <li>
-              - Adept at contributing to a highly collaborative environment,
-              finding solutions, and delivering customer satisfaction.
-            </li>
-            <li>
-              - Enjoys challenges, thrives in teams, hard worker, excellent
-              communicator, and strong writing skills.
-            </li>
-          </ul>
+          - Two years experience working with React, JavaScript, HTML/CSS to
+          deliver exceptional user experiences.
+          <br />
+          - Adept at contributing to a highly collaborative environment, finding
+          solutions, and delivering customer satisfaction.
+          <br />
+          - Enjoys challenges, thrives in teams, hard worker, excellent
+          communicator, and strong writing skills.
+          <br />
         </SectionText>
         <LinksContainer>
           <SocialLinks />
