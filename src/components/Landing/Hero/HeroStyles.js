@@ -18,6 +18,7 @@ export const LeftContainer = styled.div`
 `;
 export const LinksContainer = styled.ul`
   display: flex;
+  flex-direction: row;
   align-items: center;
   padding-bottom: 20px;
   & li {
@@ -33,13 +34,7 @@ export const LinksContainer = styled.ul`
     padding-right: 16px;
     flex-wrap: wrap;
   }
-  @media ${(props) => props.theme.breakpoints.sm} {
-  }
 
-  @media ${(props) => props.theme.breakpoints.xs} {
-  }
-  @media ${(props) => props.theme.breakpoints.lg} {
-  }
   @media ${(props) => props.theme.breakpoints.xg} {
     & li {
       & a {
